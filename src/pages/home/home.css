@@ -1,0 +1,323 @@
+#welcome-picture-slide-wrapper {
+    width: 98.9vw;
+    height: 75vh;
+    background-image: url('https://images.pexels.com/photos/5215016/pexels-photo-5215016.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    margin: 0 auto;
+    background-attachment: fixed;
+    margin-bottom: 20px;
+    z-index: 0;
+}
+
+#welcome-widgets-list {
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+    z-index: 10;
+}
+
+#welcome-widgets-list li {
+    display: inline;
+    margin: 0 3vw;
+}
+
+#welcome-widgets-list div {
+    height: 250px;
+    width: 250px;
+    background-color: var(--secondary);
+    display: inline-block;
+    -webkit-box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
+    
+}
+
+#welcome-widgets-list div h2 {
+    font-size: 4em;
+    color: var(--primary);
+}
+
+#welcome-widgets-list div p {
+    color: var(--primary);
+    font-size: 1.4em;
+}
+
+#intro-wrapper {
+    background-color: #8B7AF0;
+    padding: 20px 0;
+    padding-top: 150px;
+    z-index: 0;
+    position: relative;
+    bottom: 290px;
+}
+
+#intro-wrapper h2 {
+    color: white;
+    text-align: center;
+}
+
+#intro-wrapper p {
+    color: white;
+    width: 90vw;
+    font-size: 1.6em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#headshot-wrapper {
+    height: 200px;
+    width: 200px;
+    background-image: url('https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=600');
+    border-radius: 50%;
+    background-size: cover;
+    margin: 0 auto;
+    background-position: 95%;
+    -webkit-box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
+}
+
+#recent-blogs-list {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+
+#recent-blogs-list li {
+    display: inline;
+    margin: 0 3vw;
+}
+
+#recent-blogs-list div {
+    display: inline-block;
+    width: 23vw;
+    height: 275px;
+    background-color: var(--secondary);
+    padding: 10px;
+    padding-bottom: 20px;
+    transition: all .4s;
+}
+
+#recent-blogs-list div:hover {
+    -webkit-box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
+}
+
+#recent-blogs-list div h3 {
+    color: var(--primary)
+}
+
+#recent-blogs-list div p {
+    font-size: 1em;
+    text-wrap: wrap;
+    color: var(--primary);
+    display: inline;
+}
+
+#view-all-blog-posts-btn {
+    color: white;
+    border: 2px solid white;
+    width: 150px;
+    margin: 0 auto;
+    padding: 8px;
+    font-size: 1.1em;
+    transition: all .4s;
+    border-radius: 8px;
+}
+
+#view-all-blog-posts-btn:hover {
+    color: var(--primary);
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
+}
+
+#features-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    position: relative;
+    bottom: 250px;
+    padding-left: 15px;
+}
+
+.features-title {
+    color: var(--primary);
+    text-align: center;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 8px;
+    font-size: 1.5em;
+}
+
+#features-wrapper ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#features-wrapper ul li {
+    font-size: 4em;
+    color: var(--primary);
+    display: inline;
+    margin: 0 2vw;
+
+}
+
+#insurances-wrapper ul li a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+address {
+    color: var(--primary);
+    font-size: 1.3em;
+}
+
+#features-wrapper>div {
+    /* background-color: var(--secondary); */
+    width: 30vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #welcome-picture-slide-wrapper {
+        height: 50vh;
+        background-image: url('https://images.pexels.com/photos/3714743/pexels-photo-3714743.jpeg?auto=compress&cs=tinysrgb&w=600');
+        background-size: contain;
+    }
+
+    #welcome-widgets-list {
+        padding-left: 0;
+        position: relative;
+        right: 20px;
+        margin-bottom: 45px;
+    }
+
+    #welcome-widgets-list li {
+        display: block;
+    }
+
+    #welcome-widgets-list li div {
+        height: 15vh;
+        width: 102vw;
+        
+    }
+
+    #welcome-widgets-list li div h2 {
+        font-size: 1.3em;
+    }
+
+    #intro-wrapper h2 {
+        font-size: 1.4em;
+    }
+
+    #intro-wrapper p {
+        font-size: 1em;
+    }
+
+    #headshot-wrapper {
+        margin-bottom: 15px
+    }
+
+    #headshot-name {
+        color: red;
+        margin-bottom: 25px !important;
+    }
+
+    #recent-blogs-list {
+        list-style-type: none;
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 25px;
+    }
+    
+    #recent-blogs-list li {
+        display: block;
+        margin: 25px 3vw;
+    }
+    
+    #recent-blogs-list div {
+        display: inline-block;
+        width: 90vw;
+        height: 275px;
+        background-color: var(--secondary);
+        padding: 8px;
+        padding-bottom: 20px;
+        transition: all .4s;
+    }
+    
+    #recent-blogs-list div:hover {
+        -webkit-box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
+    }
+
+
+
+
+
+
+
+
+
+
+    #features-wrapper {
+        
+        
+        padding-top: 25px;
+        position: relative;
+        bottom: 250px;
+        padding-left: 15px;
+        display: block;
+    }
+
+  
+  
+    
+    #features-wrapper ul li {
+        font-size: 3em;
+        
+    }
+    
+
+    
+    address {
+        color: var(--primary);
+        font-size: 1.3em;
+        text-align: center;
+        margin-bottom: 15px;
+        width: 90vw;
+    }
+    
+    #features-wrapper>div {
+        /* background-color: var(--secondary); */
+        width: 100vw;
+    
+    }
+    
+   
+   
+    
+  }

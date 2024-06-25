@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --primary: #8B7AF0;
+  --secondary: #93F09B;
+}
+
+button {
+  transition: all .4s;
+}
+
+button:active {
+  position: relative;
+  top: 2px;
+}
+
+.center {
+  text-align: center;
+}

@@ -1,0 +1,47 @@
+.footer-wrapper {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 200px;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-text span {
+    color: white;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-text a:last-child {
+    color: var(--secondary);
+}
+
+.footer-text p {
+    color: var(--secondary);
+}
+
+.footer-text a:not(:last-child) {
+    margin: 0 5vw;;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .footer-text a, .footer-text p {
+        font-size: .9em;
+    }
+
+    .footer-text a:not(:last-child) {
+        margin: 0 1vw;
+    }
+  }
+
+
+

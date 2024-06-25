@@ -1,0 +1,33 @@
+#open-indicator-wrapper {
+    padding: 8px;
+    /* border: 2px solid black; */
+    /* width:110px; */
+    border-radius: 9px;
+    /* height: 15px; */
+}
+
+#open-indicator-wrapper p {
+    display: inline;
+    margin-right: 8px;
+    line-height: 15px;
+    
+}
+
+.open-now {
+    border-radius: 50%;
+    background-color: #68F072;
+    display: inline-block;
+    color: white;
+}
+
+.closed-now {
+    border-radius: 50%;
+    background-color: #F04647;
+    display: inline-block;
+    color: white;
+}
+
+#open-indicator-wrapper {
+    margin-top: 7px;
+}
+

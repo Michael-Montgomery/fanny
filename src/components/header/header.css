@@ -1,0 +1,65 @@
+header {
+    height: 70px;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5vw;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+    -webkit-box-shadow: 0px 11px 80px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 11px 80px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 11px 80px 0px rgba(0, 0, 0, 0.75);
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    margin: 5vw;
+    font-size: 1.4em;
+    transition: all .3s;
+    padding: 0;
+}
+
+header nav a:hover:not(.active) {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header nav a.active {
+    color: var(--primary);
+    background-color: var(--secondary);
+    padding: 22px 15px;
+}
+
+header nav button {
+    justify-self: flex-end;
+    font-size: 1.4em;
+    background-color: var(--primary);
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 8px;
+}
+
+header nav button:hover {
+    background-color: white;
+    color: var(--primary);
+    -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    header nav a {
+        display: none;
+    }
+  }
