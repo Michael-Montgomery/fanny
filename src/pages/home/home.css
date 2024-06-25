@@ -1,7 +1,7 @@
 #welcome-picture-slide-wrapper {
     width: 98.9vw;
     height: 75vh;
-    background-image: url('https://images.pexels.com/photos/5215016/pexels-photo-5215016.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-image: url('https://images.pexels.com/photos/5452222/pexels-photo-5452222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     margin: 0 auto;
     background-attachment: fixed;
@@ -14,7 +14,7 @@
     text-align: center;
     position: relative;
     bottom: 130px;
-    z-index: 10;
+    z-index: 0;
 }
 
 #welcome-widgets-list li {
@@ -30,7 +30,8 @@
     -webkit-box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
-    
+    z-index: 0;
+    padding: 0 15px;
 }
 
 #welcome-widgets-list div h2 {
@@ -47,7 +48,7 @@
     background-color: #8B7AF0;
     padding: 20px 0;
     padding-top: 150px;
-    z-index: 0;
+    z-index: -1;
     position: relative;
     bottom: 290px;
 }
@@ -222,7 +223,7 @@ address {
     #welcome-widgets-list li div {
         height: 15vh;
         width: 102vw;
-        
+        padding: 0;
     }
 
     #welcome-widgets-list li div h2 {

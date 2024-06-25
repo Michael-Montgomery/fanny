@@ -38,7 +38,7 @@ function Home() {
                 <li>
                     <div>
                         <h2><FontAwesomeIcon icon={faHeart}></FontAwesomeIcon></h2>
-                        <p>Extraordinary care</p>
+                        <p>World-Class Compassion</p>
                     </div>
                 </li>
                 <li>

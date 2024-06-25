@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import './header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faUser, faXmark } from '@fortawesome/free-solid-svg-icons';
 import Modal from 'react-modal';
 import { useState } from 'react';
 import LoginForm from '../loginform/loginform';
@@ -53,6 +53,7 @@ function Header() {
                     onRequestClose={closeModal}
                     style={customStyles}
                 >
+                    <p id='portal-modal-close-btn' onClick={closeModal}><FontAwesomeIcon icon={faXmark}></FontAwesomeIcon></p>
                     <LoginForm></LoginForm>
                 </Modal>
             </nav>

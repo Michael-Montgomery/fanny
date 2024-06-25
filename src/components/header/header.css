@@ -7,7 +7,7 @@ header {
     padding: 0 5vw;
     position: sticky;
     top: 0;
-    z-index: 999999;
+    z-index: 1;
     -webkit-box-shadow: 0px 11px 80px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 11px 80px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 11px 80px 0px rgba(0, 0, 0, 0.75);
@@ -51,6 +51,19 @@ header nav button:hover {
     -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
+}
+
+#portal-modal-close-btn {
+    color: var(--primary);
+    font-size: 1.5em;
+    float: right;
+    display: block;
+    transition: all .5s;
+    margin-top: 0;
+}
+
+#portal-modal-close-btn:hover {
+    transform: rotate(180deg);
 }
 
 
