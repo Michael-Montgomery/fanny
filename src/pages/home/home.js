@@ -58,7 +58,7 @@ function Home() {
                 <ul id='recent-blogs-list'>
                     {
                         recentBlogPosts.map((post, idx) => {
-                            return(
+                            return (
                                 <li key={idx}>
                                     <div className='recent-blog-post-wrapper'>
                                         <h3 className='recent-blog-post-title'>{post.title}</h3>
@@ -70,7 +70,7 @@ function Home() {
                         })
                     }
                 </ul>
-                <div className='center' id='view-all-blog-posts-btn' onClick={() => {window.location.href = '/blog'}}>View All Blog Posts</div>
+                <div className='center'><button id='view-all-blog-posts-btn' onClick={() => { window.location.href = '/blog'}}>View all blog posts</button></div>
             </div>
             <div id='features-wrapper'>
                 <div id='specialties-wrapper'>
@@ -96,9 +96,9 @@ function Home() {
                         </li>
                     </ul>
                 </div>
-                
+
             </div>
-                 <Footer></Footer>      
+            <Footer></Footer>
         </>
     )
 }

@@ -1,7 +1,7 @@
 #welcome-picture-slide-wrapper {
     width: 98.9vw;
     height: 75vh;
-    background-image: url('https://images.pexels.com/photos/5452222/pexels-photo-5452222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: url('https://images.pexels.com/photos/4989179/pexels-photo-4989179.jpeg?auto=compress&cs=tinysrgb&w=600');
     background-size: cover;
     margin: 0 auto;
     background-attachment: fixed;
@@ -41,7 +41,7 @@
 
 #welcome-widgets-list div p {
     color: var(--primary);
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 #intro-wrapper {
@@ -91,7 +91,7 @@
     margin: 0 3vw;
 }
 
-#recent-blogs-list div {
+.recent-blog-post-wrapper {
     display: inline-block;
     width: 23vw;
     height: 275px;
@@ -101,14 +101,14 @@
     transition: all .4s;
 }
 
-#recent-blogs-list div:hover {
+.recent-blog-post-wrapper:hover {
     -webkit-box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
 }
 
 #recent-blogs-list div h3 {
-    color: var(--primary)
+    color: var(--primary);
 }
 
 #recent-blogs-list div p {
@@ -121,7 +121,8 @@
 #view-all-blog-posts-btn {
     color: white;
     border: 2px solid white;
-    width: 150px;
+    background-color: var(--primary);
+    width: 200px;
     margin: 0 auto;
     padding: 8px;
     font-size: 1.1em;
@@ -166,7 +167,6 @@
     color: var(--primary);
     display: inline;
     margin: 0 2vw;
-
 }
 
 #insurances-wrapper ul li a {
@@ -179,10 +179,8 @@ address {
     font-size: 1.3em;
 }
 
-#features-wrapper>div {
-    /* background-color: var(--secondary); */
+#features-wrapper > div {
     width: 30vw;
-
 }
 
 
@@ -243,7 +241,6 @@ address {
     }
 
     #headshot-name {
-        color: red;
         margin-bottom: 25px !important;
     }
 
@@ -253,22 +250,21 @@ address {
         padding-left: 0;
         margin-bottom: 25px;
     }
-    
+
     #recent-blogs-list li {
         display: block;
         margin: 25px 3vw;
     }
-    
+
     #recent-blogs-list div {
         display: inline-block;
         width: 90vw;
         height: 275px;
-        background-color: var(--secondary);
         padding: 8px;
         padding-bottom: 20px;
         transition: all .4s;
     }
-    
+
     #recent-blogs-list div:hover {
         -webkit-box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.75);
@@ -285,8 +281,6 @@ address {
 
 
     #features-wrapper {
-        
-        
         padding-top: 25px;
         position: relative;
         bottom: 250px;
@@ -294,16 +288,10 @@ address {
         display: block;
     }
 
-  
-  
-    
     #features-wrapper ul li {
         font-size: 3em;
-        
     }
-    
 
-    
     address {
         color: var(--primary);
         font-size: 1.3em;
@@ -311,14 +299,8 @@ address {
         margin-bottom: 15px;
         width: 90vw;
     }
-    
+
     #features-wrapper>div {
-        /* background-color: var(--secondary); */
         width: 100vw;
-    
     }
-    
-   
-   
-    
-  }
+}
