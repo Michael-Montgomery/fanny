@@ -75,4 +75,9 @@ header nav button:hover {
     header nav a {
         display: none;
     }
+
+    #mobile-header {
+        width: 100vw;
+        background-color: var(--primary);
+    }
   }

@@ -1,4 +1,8 @@
-import { NavLink } from 'react-router-dom';
+import {
+    // Link,
+
+    NavLink
+} from 'react-router-dom';
 import './header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faUser, faXmark } from '@fortawesome/free-solid-svg-icons';
@@ -57,6 +61,15 @@ function Header() {
                     <LoginForm></LoginForm>
                 </Modal>
             </nav>
+            {/* <div id='mobile-header'>
+            <button onClick={openModal}> <FontAwesomeIcon icon={faUser}></FontAwesomeIcon> Patient Portal</button>
+            <ul>
+                <li><Link to='/'>Home</Link></li>
+                <li><Link to='/faqs'>FAQ's</Link></li>
+                <li><Link to='/blog'>Blog</Link></li>
+                <li><Link to='/contact'>Contact</Link></li>
+            </ul>
+            </div> */}
         </header>
 
     )

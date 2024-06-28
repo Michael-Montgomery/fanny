@@ -14,6 +14,7 @@ function LoginForm() {
                 <h3>Login to View the Patient Portal</h3>
                 <input type='email' placeholder='email'></input><br></br>
                 <input type={hidePassword ? 'password' : 'text'} placeholder='Password'></input> <button onClick={(e) => {e.preventDefault(); setHidePassword(!hidePassword)}} id='show-password-btn'>{hidePassword ? <FontAwesomeIcon icon={faEye}></FontAwesomeIcon> : <FontAwesomeIcon icon={faEyeSlash}></FontAwesomeIcon>}</button><br></br>
+                {/* <label><input type='checkbox'></input>Stay signed in</label> */}
                 <button id='login-btn'>Login</button>
             </form>
         </div>
