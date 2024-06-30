@@ -80,6 +80,24 @@ header nav button:hover {
 
 
 
+@media only screen and (max-width: 1100px) {
+   header nav a {
+    font-size: 1em;
+    margin: 0 10px;
+   }
+
+   header nav a.active {
+    padding: 24px 15px;
+   }
+
+   header nav button {
+    font-size: 1em;
+   }
+
+  }
+
+
+
 
 
 
