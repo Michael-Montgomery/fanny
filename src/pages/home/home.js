@@ -14,6 +14,8 @@ function Home() {
 
     const [practiceIsOpen, setPracticeIsOpen] = useState(new Date().getHours() > 7 && new Date().getHours() < 17 && new Date().getDay() !== 0 && new Date().getDay() !== 1);
 
+    
+
     useEffect(() => {
         const interval = setInterval(() => {
             setPracticeIsOpen(new Date().getHours() > 7 && new Date().getHours() < 17 && new Date().getDay() !== 0 && new Date().getDay() !== 1);

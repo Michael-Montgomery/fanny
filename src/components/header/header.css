@@ -1,9 +1,11 @@
 header {
-    height: 70px;
+    /* height: 70px; */
     background-color: var(--primary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center;
+     */
+    transition: all .5s;
     padding: 0 5vw;
     position: sticky;
     top: 0;
@@ -11,6 +13,10 @@ header {
     -webkit-box-shadow: 0px 11px 80px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 11px 80px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 11px 80px 0px rgba(0, 0, 0, 0.75);
+}
+
+header nav {
+    line-height: 70px;
 }
 
 header nav a {
@@ -45,6 +51,10 @@ header nav button {
     padding: 8px;
 }
 
+.responsive-menu-btn {
+    display: none;
+}
+
 header nav button:hover {
     background-color: white;
     color: var(--primary);
@@ -72,12 +82,66 @@ header nav button:hover {
 
 
 @media only screen and (max-width: 600px) {
+
+    header {
+        padding-right: 35px;
+    }
     header nav a {
         display: none;
+    }
+
+    header button {
+        display: none;
+    }
+
+    .responsive-menu-btn {
+        display: block;
+        float: right;
+        border: none;
+        margin-top: 15px;
+    }
+
+    .responsive-menu-btn:hover {
+        display: block;
+        float: right;
+        border: none;
+        margin-top: 15px;
     }
 
     #mobile-header {
         width: 100vw;
         background-color: var(--primary);
+    }
+
+    
+    #responsive-menu-wrapper {
+        padding-top: 75px;
+    }
+
+    #responsive-menu-wrapper ul {
+        text-align: center;
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    #responsive-menu-wrapper ul li {
+        margin-bottom: 15px;
+    }
+
+    #responsive-portal-btn {
+        display: inline-block;
+        font-size: 1.4em;
+        background-color: var(--primary);
+        color: white;
+        border: 2px solid white;
+        outline: none;
+        border-radius: 8px;
+        padding: 6px;
+    }
+
+    #responsive-menu-wrapper ul li a {
+        text-decoration: none;
+        font-size: 1.4em;
+        color: white;
     }
   }
