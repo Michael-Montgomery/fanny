@@ -60,8 +60,13 @@
 
     }
 
-    #login-form-wrapper h2 {
+    #login-form-wrapper form {
+        text-align: center;
+    }
+
+    #login-form-wrapper h3 {
         font-size: 1em;
+        color: var(--primary);
     }
 
     #login-form-wrapper input {

@@ -42,13 +42,15 @@ header nav a.active {
 }
 
 header nav button {
-    justify-self: flex-end;
+    /* justify-self: flex-end; */
     font-size: 1.4em;
+    margin-top: 10px;
     background-color: var(--primary);
     border: 2px solid white;
     border-radius: 8px;
     color: white;
     padding: 8px;
+    float: right;
 }
 
 .responsive-menu-btn {
